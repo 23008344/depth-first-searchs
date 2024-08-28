@@ -56,8 +56,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 
 <hr>
 <h3>Program<h3>
-<h2>
- ```
+ 
 from collections import deque
 from collections import defaultdict
 
@@ -81,8 +80,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-```
-</h2>
+
 
 <hr>
 <h3>Sample Input</h3>
